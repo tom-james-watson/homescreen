@@ -1,0 +1,34 @@
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    .link-icon-container,
+    .link-name-container {
+        display: flex;
+        align-items: bottom;
+        height: 50%;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .link-icon-container {
+        align-items: flex-end;
+    }
+
+    .link-name-container {
+        align-items: flex-start;
+    }
+
+    .link-name {
+        text-align: center;
+        padding-top: 5px;
+        font-weight: 100;
+    }
+}

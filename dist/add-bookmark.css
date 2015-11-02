@@ -1,0 +1,9 @@
+.add-bookmark {
+  min-height: 500px; }
+  .add-bookmark .loading-container {
+    position: relative;
+    left: calc(50% - 5px); }
+  .add-bookmark .list .list-icon {
+    position: absolute;
+    top: 8px;
+    left: 16px; }

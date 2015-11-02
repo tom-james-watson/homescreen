@@ -1,0 +1,29 @@
+{
+  "name": "homescreen",
+  "version": "0.0.1",
+  "description": "",
+  "main": "js/app.js",
+  "dependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
+    "classnames": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "lodash": "^3.10.1",
+    "material-ui": "^0.13.0",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-grid-layout": "^0.8.5",
+    "react-redux": "3.0.0",
+    "react-tap-event-plugin": "^0.2.0",
+    "reactify": "^1.1.1",
+    "redux": "^3.0.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Watson",
+  "license": "ISC"
+}

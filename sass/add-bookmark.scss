@@ -1,0 +1,16 @@
+.add-bookmark {
+    min-height: 500px;
+
+    .loading-container {
+        position: relative;
+        left: calc(50% - 5px);
+    }
+
+    .list {
+        .list-icon {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+    }
+}

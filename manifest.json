@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "Homescreen",
+    "description": "TODO",
+    "icons": {
+        "48" : "image/icon48.png",
+        "128": "image/icon128.png"
+    },
+    "permissions": [
+        "storage",
+        "bookmarks"
+    ],
+    "offline_enabled": true,
+    "minimum_chrome_version": "32",
+    "chrome_url_overrides" : {
+        "newtab": "templates/newtab-override.html"
+    }
+}
